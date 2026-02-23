@@ -54,9 +54,9 @@ func (w *ExternalEthClientWrapper) PendingCallContract(ctx context.Context, call
 	return w.CallContract(ctx, call, nil)
 }
 
-func (w *ExternalEthClientWrapper) EstimateBaseFee(_ context.Context) (*big.Int, error) {
+func (w *ExternalEthClientWrapper) EstimateBaseFee(ctx context.Context) (*big.Int, error) {
 	// Get base fee from the latest block header
-	baseFeeCtx, cancel := context.WithTimeout(context.Background(), utils.DefaultRPCTimeout)
+	baseFeeCtx, cancel := context.WithTimeout(ctx, utils.DefaultRPCTimeout)
 	defer cancel()
 
 	header, err := w.HeaderByNumber(baseFeeCtx, nil) // nil = latest block

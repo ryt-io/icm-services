@@ -1,6 +1,6 @@
 // Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
-//
+
 //go:generate go run go.uber.org/mock/mockgen -destination=./mocks/mock_destination_rpc_client.go -package=mocks github.com/ava-labs/icm-services/vms/evm DestinationRPCClient
 package evm
 
