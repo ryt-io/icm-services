@@ -8,7 +8,7 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/icm-services/config"
+	"github.com/ryt-io/icm-services/config"
 )
 
 // Config defines a common interface necessary for standing up an AppRequestNetwork.

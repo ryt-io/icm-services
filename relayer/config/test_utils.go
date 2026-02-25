@@ -5,7 +5,7 @@ package config
 import (
 	"fmt"
 
-	basecfg "github.com/ava-labs/icm-services/config"
+	basecfg "github.com/ryt-io/icm-services/config"
 )
 
 var (

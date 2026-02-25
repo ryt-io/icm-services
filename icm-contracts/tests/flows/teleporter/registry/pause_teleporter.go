@@ -3,8 +3,8 @@ package registry
 import (
 	"context"
 
-	localnetwork "github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
+	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	. "github.com/onsi/gomega"
 )

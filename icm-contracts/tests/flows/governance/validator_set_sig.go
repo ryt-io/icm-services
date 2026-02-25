@@ -4,10 +4,10 @@ import (
 	"context"
 	"math/big"
 
-	validatorsetsig "github.com/ava-labs/icm-services/abi-bindings/go/governance/ValidatorSetSig"
-	exampleerc20 "github.com/ava-labs/icm-services/abi-bindings/go/mocks/ExampleERC20"
-	localnetwork "github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
+	validatorsetsig "github.com/ryt-io/icm-services/abi-bindings/go/governance/ValidatorSetSig"
+	exampleerc20 "github.com/ryt-io/icm-services/abi-bindings/go/mocks/ExampleERC20"
+	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	. "github.com/onsi/gomega"
 )

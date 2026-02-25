@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ava-labs/libevm/crypto"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"

@@ -11,9 +11,9 @@ import (
 	snowVdrs "github.com/ava-labs/avalanchego/snow/validators"
 	"github.com/ava-labs/avalanchego/utils/logging"
 	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
-	"github.com/ava-labs/icm-services/cache"
-	"github.com/ava-labs/icm-services/peers/clients"
-	sharedUtils "github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/cache"
+	"github.com/ryt-io/icm-services/peers/clients"
+	sharedUtils "github.com/ryt-io/icm-services/utils"
 	"go.uber.org/zap"
 )
 

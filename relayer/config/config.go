@@ -19,8 +19,8 @@ import (
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/set"
-	basecfg "github.com/ava-labs/icm-services/config"
-	"github.com/ava-labs/icm-services/peers"
+	basecfg "github.com/ryt-io/icm-services/config"
+	"github.com/ryt-io/icm-services/peers"
 	"go.uber.org/zap"
 )
 

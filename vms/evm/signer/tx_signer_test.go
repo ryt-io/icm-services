@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/icm-services/relayer/config"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/ava-labs/libevm/common"
 	"github.com/stretchr/testify/require"
 )

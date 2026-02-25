@@ -6,12 +6,12 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/units"
-	exampleerc20 "github.com/ava-labs/icm-services/abi-bindings/go/mocks/ExampleERC20"
-	erc20tokenstakingmanager "github.com/ava-labs/icm-services/abi-bindings/go/validator-manager/ERC20TokenStakingManager"
-	istakingmanager "github.com/ava-labs/icm-services/abi-bindings/go/validator-manager/interfaces/IStakingManager"
-	localnetwork "github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
-	"github.com/ava-labs/icm-services/log"
+	exampleerc20 "github.com/ryt-io/icm-services/abi-bindings/go/mocks/ExampleERC20"
+	erc20tokenstakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/ERC20TokenStakingManager"
+	istakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/interfaces/IStakingManager"
+	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
+	"github.com/ryt-io/icm-services/log"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	. "github.com/onsi/gomega"
 )

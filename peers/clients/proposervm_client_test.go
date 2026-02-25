@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/icm-services/config"
+	"github.com/ryt-io/icm-services/config"
 	"github.com/stretchr/testify/require"
 )
 

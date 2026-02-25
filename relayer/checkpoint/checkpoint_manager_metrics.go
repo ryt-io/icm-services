@@ -4,7 +4,7 @@
 package checkpoint
 
 import (
-	"github.com/ava-labs/icm-services/database"
+	"github.com/ryt-io/icm-services/database"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -31,8 +31,8 @@ import (
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/sampler"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/icm-services/peers/clients"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/peers/clients"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 )

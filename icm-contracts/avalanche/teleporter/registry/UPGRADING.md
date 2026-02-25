@@ -20,7 +20,7 @@ The steps to do so are as follows:
 
 3. Restart the node to mark the off-chain ICM message as eligible for signing by the validator.
 
-To actually register the new `TeleporterMessenger` version with the registry, the validators must be queried for their signature of the message, the signatures aggregated, and a signed ICM message created to be included in the transaction that calls `addProtocolVersion`. As an example, [ICM Relayer](https://github.com/ava-labs/icm-services) provides this functionality. The following steps illustrate how to use ICM Relayer to register the new `TeleporterMessenger` version.
+To actually register the new `TeleporterMessenger` version with the registry, the validators must be queried for their signature of the message, the signatures aggregated, and a signed ICM message created to be included in the transaction that calls `addProtocolVersion`. As an example, [ICM Relayer](https://github.com/ryt-io/icm-services) provides this functionality. The following steps illustrate how to use ICM Relayer to register the new `TeleporterMessenger` version.
 
 1. Construct a "manual-warp-messages" entry in the ICM Relayer configuration file, using the following values:
 

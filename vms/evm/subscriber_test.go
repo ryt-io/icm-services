@@ -9,8 +9,8 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/logging"
-	basecfg "github.com/ava-labs/icm-services/config"
-	"github.com/ava-labs/icm-services/relayer/config"
+	basecfg "github.com/ryt-io/icm-services/config"
+	"github.com/ryt-io/icm-services/relayer/config"
 	ethereum "github.com/ava-labs/libevm"
 	"github.com/ava-labs/libevm/core/types"
 	"github.com/stretchr/testify/require"

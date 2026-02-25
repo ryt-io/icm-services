@@ -9,7 +9,7 @@ import (
 	"github.com/ava-labs/avalanchego/utils/rpc"
 	"github.com/ava-labs/avalanchego/vms/proposervm"
 	"github.com/ava-labs/avalanchego/vms/proposervm/block"
-	"github.com/ava-labs/icm-services/config"
+	"github.com/ryt-io/icm-services/config"
 )
 
 // ProposerVMAPI is a wrapper around a [proposervm.JSONRPCClient],

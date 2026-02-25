@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/ava-labs/avalanchego/utils/logging"
-	pb "github.com/ava-labs/icm-services/proto/pb/decider"
+	pb "github.com/ryt-io/icm-services/proto/pb/decider"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

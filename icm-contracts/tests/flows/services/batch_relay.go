@@ -9,9 +9,9 @@ import (
 
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"

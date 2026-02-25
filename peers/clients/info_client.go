@@ -12,7 +12,7 @@ import (
 	"github.com/ava-labs/avalanchego/upgrade"
 	"github.com/ava-labs/avalanchego/utils/rpc"
 	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
-	"github.com/ava-labs/icm-services/config"
+	"github.com/ryt-io/icm-services/config"
 )
 
 // InfoAPI is a wrapper around the info.Client,

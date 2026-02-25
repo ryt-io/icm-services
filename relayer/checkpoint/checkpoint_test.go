@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/icm-services/database"
-	mock_database "github.com/ava-labs/icm-services/database/mocks"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/database"
+	mock_database "github.com/ryt-io/icm-services/database/mocks"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/crypto"
 	"github.com/prometheus/client_golang/prometheus"

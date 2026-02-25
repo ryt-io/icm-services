@@ -6,7 +6,7 @@ package signer
 import (
 	"math/big"
 
-	"github.com/ava-labs/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"
 )

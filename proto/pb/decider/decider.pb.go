@@ -156,7 +156,7 @@ const file_decider_decider_proto_rawDesc = "" +
 	"\x19ShouldSendMessageResponse\x12.\n" +
 	"\x13should_send_message\x18\x01 \x01(\bR\x11shouldSendMessage2l\n" +
 	"\x0eDeciderService\x12Z\n" +
-	"\x11ShouldSendMessage\x12!.decider.ShouldSendMessageRequest\x1a\".decider.ShouldSendMessageResponseB3Z1github.com/ava-labs/icm-services/proto/pb/deciderb\x06proto3"
+	"\x11ShouldSendMessage\x12!.decider.ShouldSendMessageRequest\x1a\".decider.ShouldSendMessageResponseB3Z1github.com/ryt-io/icm-services/proto/pb/deciderb\x06proto3"
 
 var (
 	file_decider_decider_proto_rawDescOnce sync.Once

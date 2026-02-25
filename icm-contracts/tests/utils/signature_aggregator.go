@@ -17,8 +17,8 @@ import (
 	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/proposervm"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/icm-services/log"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
+	"github.com/ryt-io/icm-services/log"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
 )

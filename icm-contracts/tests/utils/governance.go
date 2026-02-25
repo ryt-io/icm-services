@@ -6,9 +6,9 @@ import (
 
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	validatorsetsig "github.com/ava-labs/icm-services/abi-bindings/go/governance/ValidatorSetSig"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/icm-services/log"
+	validatorsetsig "github.com/ryt-io/icm-services/abi-bindings/go/governance/ValidatorSetSig"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
+	"github.com/ryt-io/icm-services/log"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"

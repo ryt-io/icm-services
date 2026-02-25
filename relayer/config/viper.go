@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	commonConfig "github.com/ava-labs/icm-services/config"
-	"github.com/ava-labs/icm-services/utils"
+	commonConfig "github.com/ryt-io/icm-services/config"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )

@@ -1,4 +1,4 @@
-module github.com/ava-labs/icm-services
+module github.com/ryt-io/icm-services
 
 go 1.25.7
 

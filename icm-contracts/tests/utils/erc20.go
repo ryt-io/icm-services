@@ -5,9 +5,9 @@ import (
 	"crypto/ecdsa"
 	"math/big"
 
-	exampleerc20 "github.com/ava-labs/icm-services/abi-bindings/go/mocks/ExampleERC20"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/icm-services/log"
+	exampleerc20 "github.com/ryt-io/icm-services/abi-bindings/go/mocks/ExampleERC20"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
+	"github.com/ryt-io/icm-services/log"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/crypto"

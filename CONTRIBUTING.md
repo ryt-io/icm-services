@@ -13,12 +13,12 @@ To start developing on with ICM Contracts, you'll need Solidity >= v0.8.30. [Fou
 
 ### Making an Issue
 
-- Check that the issue you're filing doesn't already exist by searching under [issues](https://github.com/ava-labs/icm-services/issues).
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/ava-labs/icm-services/issues/new/choose). Be sure to include a *title and clear description* with as much relevant information as possible.
+- Check that the issue you're filing doesn't already exist by searching under [issues](https://github.com/ryt-io/icm-services/issues).
+- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/ryt-io/icm-services/issues/new/choose). Be sure to include a *title and clear description* with as much relevant information as possible.
 
 ## Features
 
-- If you want to start a discussion about the development of a new feature or the modification of an existing one, start a thread under GitHub [discussions](https://github.com/ava-labs/icm-services/discussions/categories/ideas).
+- If you want to start a discussion about the development of a new feature or the modification of an existing one, start a thread under GitHub [discussions](https://github.com/ryt-io/icm-services/discussions/categories/ideas).
 - Post a thread about your idea and why it should be added to ICM Services.
 - Don't start working on a pull request until you've received positive feedback from the maintainers.
 
@@ -58,4 +58,4 @@ See [E2E Tests](./README.md#e2e-tests)
 
 ### Do you have questions about the source code?
 
-- Ask any question about ICM Services or ICM contracts under GitHub [discussions](https://github.com/ava-labs/icm-services/discussions/categories/q-a).
+- Ask any question about ICM Services or ICM contracts under GitHub [discussions](https://github.com/ryt-io/icm-services/discussions/categories/q-a).

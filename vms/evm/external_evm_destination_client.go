@@ -14,7 +14,7 @@ import (
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/set"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	validatorregistry "github.com/ava-labs/icm-services/abi-bindings/go/SubsetUpdater"
+	validatorregistry "github.com/ryt-io/icm-services/abi-bindings/go/SubsetUpdater"
 	ethereum "github.com/ava-labs/libevm"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ava-labs/libevm/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	validatorManagerFlows "github.com/ava-labs/icm-services/icm-contracts/tests/flows/validator-manager"
-	localnetwork "github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/log"
+	validatorManagerFlows "github.com/ryt-io/icm-services/icm-contracts/tests/flows/validator-manager"
+	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/log"
 	"github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

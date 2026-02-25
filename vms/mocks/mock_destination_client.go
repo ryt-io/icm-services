@@ -16,7 +16,7 @@ import (
 	ids "github.com/ava-labs/avalanchego/ids"
 	set "github.com/ava-labs/avalanchego/utils/set"
 	warp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	evm "github.com/ava-labs/icm-services/vms/evm"
+	evm "github.com/ryt-io/icm-services/vms/evm"
 	common "github.com/ava-labs/libevm/common"
 	types "github.com/ava-labs/libevm/core/types"
 	gomock "go.uber.org/mock/gomock"

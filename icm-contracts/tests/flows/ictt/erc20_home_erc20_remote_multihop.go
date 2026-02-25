@@ -4,9 +4,9 @@ import (
 	"context"
 	"math/big"
 
-	erc20tokenhome "github.com/ava-labs/icm-services/abi-bindings/go/ictt/TokenHome/ERC20TokenHome"
-	localnetwork "github.com/ava-labs/icm-services/icm-contracts/tests/network"
-	"github.com/ava-labs/icm-services/icm-contracts/tests/utils"
+	erc20tokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/ERC20TokenHome"
+	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
+	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	"github.com/ava-labs/libevm/crypto"
 	. "github.com/onsi/gomega"

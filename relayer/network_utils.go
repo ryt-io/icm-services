@@ -11,9 +11,9 @@ import (
 
 	"github.com/ava-labs/avalanchego/utils/logging"
 	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
-	"github.com/ava-labs/icm-services/peers"
-	"github.com/ava-labs/icm-services/relayer/config"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/peers"
+	"github.com/ryt-io/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/utils"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

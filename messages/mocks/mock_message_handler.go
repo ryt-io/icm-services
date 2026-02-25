@@ -14,8 +14,8 @@ import (
 
 	logging "github.com/ava-labs/avalanchego/utils/logging"
 	warp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	messages "github.com/ava-labs/icm-services/messages"
-	vms "github.com/ava-labs/icm-services/vms"
+	messages "github.com/ryt-io/icm-services/messages"
+	vms "github.com/ryt-io/icm-services/vms"
 	common "github.com/ava-labs/libevm/common"
 	gomock "go.uber.org/mock/gomock"
 )

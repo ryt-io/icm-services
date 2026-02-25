@@ -9,8 +9,8 @@ import (
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/constants"
 	"github.com/ava-labs/avalanchego/utils/set"
-	basecfg "github.com/ava-labs/icm-services/config"
-	"github.com/ava-labs/icm-services/utils"
+	basecfg "github.com/ryt-io/icm-services/config"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/ava-labs/libevm/crypto"
 )
 

@@ -9,8 +9,8 @@ import (
 	"github.com/ava-labs/avalanchego/utils/linked"
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/icm-services/cache"
-	"github.com/ava-labs/icm-services/peers/clients"
+	"github.com/ryt-io/icm-services/cache"
+	"github.com/ryt-io/icm-services/peers/clients"
 )
 
 // NewAppRequestNetworkForTesting creates an AppRequestNetwork instance for testing

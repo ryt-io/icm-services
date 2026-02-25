@@ -14,10 +14,10 @@ import (
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/logging"
 	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
-	"github.com/ava-labs/icm-services/signature-aggregator/aggregator"
-	"github.com/ava-labs/icm-services/signature-aggregator/metrics"
-	"github.com/ava-labs/icm-services/types"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/signature-aggregator/aggregator"
+	"github.com/ryt-io/icm-services/signature-aggregator/metrics"
+	"github.com/ryt-io/icm-services/types"
+	"github.com/ryt-io/icm-services/utils"
 	"go.uber.org/zap"
 )
 

@@ -1,7 +1,7 @@
 // Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
-//go:generate go run go.uber.org/mock/mockgen -destination=./mocks/mock_destination_rpc_client.go -package=mocks github.com/ava-labs/icm-services/vms/evm DestinationRPCClient
+//go:generate go run go.uber.org/mock/mockgen -destination=./mocks/mock_destination_rpc_client.go -package=mocks github.com/ryt-io/icm-services/vms/evm DestinationRPCClient
 package evm
 
 import (
@@ -15,8 +15,8 @@ import (
 	"github.com/ava-labs/avalanchego/utils/logging"
 	"github.com/ava-labs/avalanchego/utils/set"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/icm-services/utils"
-	"github.com/ava-labs/icm-services/vms/evm/signer"
+	"github.com/ryt-io/icm-services/utils"
+	"github.com/ryt-io/icm-services/vms/evm/signer"
 	ethereum "github.com/ava-labs/libevm"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/core/types"

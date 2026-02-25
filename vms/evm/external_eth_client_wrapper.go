@@ -8,7 +8,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/utils"
 	ethereum "github.com/ava-labs/libevm"
 	"github.com/ava-labs/libevm/accounts/abi/bind"
 	"github.com/ava-labs/libevm/common"

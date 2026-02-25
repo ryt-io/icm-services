@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 
-	deploymentUtils "github.com/ava-labs/icm-services/icm-contracts/utils/deployment-utils"
-	"github.com/ava-labs/icm-services/log"
+	deploymentUtils "github.com/ryt-io/icm-services/icm-contracts/utils/deployment-utils"
+	"github.com/ryt-io/icm-services/log"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/crypto"
 	"go.uber.org/zap"

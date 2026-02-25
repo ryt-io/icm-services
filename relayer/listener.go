@@ -11,9 +11,9 @@ import (
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/icm-services/relayer/config"
-	"github.com/ava-labs/icm-services/utils"
-	"github.com/ava-labs/icm-services/vms/evm"
+	"github.com/ryt-io/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/utils"
+	"github.com/ryt-io/icm-services/vms/evm"
 	"github.com/ava-labs/libevm/ethclient"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

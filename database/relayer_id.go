@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/icm-services/relayer/config"
-	"github.com/ava-labs/icm-services/utils"
+	"github.com/ryt-io/icm-services/relayer/config"
+	"github.com/ryt-io/icm-services/utils"
 	"github.com/ava-labs/libevm/common"
 	"github.com/ava-labs/libevm/crypto"
 )
