@@ -5,7 +5,7 @@ package main
 
 import (
 	teleportermessenger "github.com/ryt-io/icm-services/abi-bindings/go/teleporter/TeleporterMessenger"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )

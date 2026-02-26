@@ -10,9 +10,9 @@ import (
 	"runtime"
 
 	"github.com/ryt-io/icm-services/utils"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 )
 
 var _ Signer = &TxSigner{}

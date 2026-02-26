@@ -13,17 +13,17 @@ import (
 	"time"
 
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/contracts/warp"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ryt-io/icm-services/relayer/api"
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 	. "github.com/onsi/gomega"
 )
 

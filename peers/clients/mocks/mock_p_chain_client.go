@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	rpc "github.com/ava-labs/avalanchego/utils/rpc"
-	platformvm "github.com/ava-labs/avalanchego/vms/platformvm"
+	ids "github.com/ryt-io/ryt-v2/ids"
+	rpc "github.com/ryt-io/ryt-v2/utils/rpc"
+	platformvm "github.com/ryt-io/ryt-v2/vms/platformvm"
 	gomock "go.uber.org/mock/gomock"
 )
 

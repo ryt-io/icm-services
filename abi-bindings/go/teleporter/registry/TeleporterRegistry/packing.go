@@ -6,8 +6,8 @@ package teleporterregistry
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/accounts/abi"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/common"
 	"github.com/pkg/errors"
 )
 

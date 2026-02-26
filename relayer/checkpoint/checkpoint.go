@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/ryt-io/icm-services/database"
 	"github.com/ryt-io/icm-services/utils"
 	"go.uber.org/zap"

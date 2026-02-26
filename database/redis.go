@@ -7,8 +7,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/libevm/common"
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"
 )

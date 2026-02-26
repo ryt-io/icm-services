@@ -6,7 +6,7 @@ package config
 import (
 	"net/netip"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ryt-io/ryt-v2/ids"
 )
 
 type PeerConfig struct {

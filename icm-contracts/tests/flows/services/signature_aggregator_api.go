@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"

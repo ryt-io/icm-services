@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/params"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 var _ configRPCClient = (*rpcClient)(nil)

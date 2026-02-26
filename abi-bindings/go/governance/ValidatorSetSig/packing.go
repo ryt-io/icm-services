@@ -6,7 +6,7 @@ package validatorsetsig
 import (
 	"fmt"
 
-	"github.com/ava-labs/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/accounts/abi"
 	"github.com/pkg/errors"
 )
 

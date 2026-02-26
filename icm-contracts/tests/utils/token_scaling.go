@@ -3,11 +3,11 @@ package utils
 import (
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ryt-io/ryt-v2/ids"
 	erc20tokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/ERC20TokenHome"
 	nativetokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/NativeTokenHome"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
 	. "github.com/onsi/gomega"
 )
 

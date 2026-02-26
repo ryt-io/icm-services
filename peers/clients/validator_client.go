@@ -9,12 +9,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/snow/validators"
+	"github.com/ryt-io/ryt-v2/utils/rpc"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	"github.com/ryt-io/ryt-v2/vms/platformvm"
+	pchainapi "github.com/ryt-io/ryt-v2/vms/platformvm/api"
 	"github.com/ryt-io/icm-services/config"
 )
 

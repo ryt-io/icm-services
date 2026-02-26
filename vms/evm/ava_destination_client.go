@@ -8,11 +8,11 @@ import (
 	"math/big"
 
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/common/hexutil"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/ethclient"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/common/hexutil"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/ethclient"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 var _ DestinationRPCClient = (*avaDestinationClient)(nil)

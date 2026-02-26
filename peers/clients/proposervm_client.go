@@ -6,9 +6,9 @@ package clients
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/proposervm"
-	"github.com/ava-labs/avalanchego/vms/proposervm/block"
+	"github.com/ryt-io/ryt-v2/utils/rpc"
+	"github.com/ryt-io/ryt-v2/vms/proposervm"
+	"github.com/ryt-io/ryt-v2/vms/proposervm/block"
 	"github.com/ryt-io/icm-services/config"
 )
 

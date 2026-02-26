@@ -5,16 +5,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/units"
 	nativetokenstakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/NativeTokenStakingManager"
 	poamanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/PoAManager"
 	validatormanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/ValidatorManager"
 	istakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/interfaces/IStakingManager"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/crypto"
 	. "github.com/onsi/gomega"
 )
 

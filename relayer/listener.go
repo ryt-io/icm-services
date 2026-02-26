@@ -9,12 +9,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ryt-io/icm-services/utils"
 	"github.com/ryt-io/icm-services/vms/evm"
-	"github.com/ava-labs/libevm/ethclient"
+	"github.com/ryt-io/libevm/ethclient"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

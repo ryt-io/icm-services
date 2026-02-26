@@ -9,7 +9,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ryt-io/ryt-v2/ids"
 	erc20tokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/ERC20TokenHome"
 	nativetokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/NativeTokenHome"
 	tokenhome "github.com/ryt-io/icm-services/abi-bindings/go/ictt/TokenHome/TokenHome"
@@ -22,10 +22,10 @@ import (
 	mockNSACR "github.com/ryt-io/icm-services/abi-bindings/go/ictt/mocks/MockNativeSendAndCallReceiver"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
 	"github.com/ryt-io/icm-services/log"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
+	"github.com/ryt-io/libevm/crypto"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
 )

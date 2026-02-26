@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ryt-io/ryt-v2/utils/units"
 	teleportermessenger "github.com/ryt-io/icm-services/abi-bindings/go/teleporter/TeleporterMessenger"
 	poamanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/PoAManager"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ryt-io/icm-services/log"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
 )

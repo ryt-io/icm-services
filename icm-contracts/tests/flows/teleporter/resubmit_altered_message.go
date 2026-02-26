@@ -8,8 +8,8 @@ import (
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ryt-io/icm-services/log"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
 	. "github.com/onsi/gomega"
 )
 

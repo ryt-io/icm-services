@@ -7,12 +7,12 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ryt-io/ryt-v2/ids"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	teleporterutils "github.com/ryt-io/icm-services/icm-contracts/utils/teleporter-utils"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
 	. "github.com/onsi/gomega"
 )
 

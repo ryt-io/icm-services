@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/ryt-io/ryt-v2/utils/rpc"
 )
 
 // API configuration containing the base URL and query parameters

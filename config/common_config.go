@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/avalanchego/staking"
+	"github.com/ryt-io/ryt-v2/staking"
 	"github.com/spf13/viper"
 )
 

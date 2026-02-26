@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	pchainapi "github.com/ryt-io/ryt-v2/vms/platformvm/api"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"

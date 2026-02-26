@@ -9,8 +9,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	pchainapi "github.com/ryt-io/ryt-v2/vms/platformvm/api"
 	"github.com/ryt-io/icm-services/peers"
 	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ryt-io/icm-services/utils"

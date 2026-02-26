@@ -15,8 +15,8 @@ import (
 	reflect "reflect"
 
 	ethereum "github.com/ava-labs/libevm"
-	common "github.com/ava-labs/libevm/common"
-	types "github.com/ava-labs/libevm/core/types"
+	common "github.com/ryt-io/libevm/common"
+	types "github.com/ryt-io/libevm/core/types"
 	gomock "go.uber.org/mock/gomock"
 )
 

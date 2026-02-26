@@ -7,11 +7,11 @@ import (
 	"context"
 	"net/netip"
 
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/upgrade"
-	"github.com/ava-labs/avalanchego/utils/rpc"
-	"github.com/ava-labs/avalanchego/vms/platformvm/signer"
+	"github.com/ryt-io/ryt-v2/api/info"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/upgrade"
+	"github.com/ryt-io/ryt-v2/utils/rpc"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/signer"
 	"github.com/ryt-io/icm-services/config"
 )
 

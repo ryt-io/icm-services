@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/crypto"
 	. "github.com/onsi/gomega"
 	"go.uber.org/zap"
 )

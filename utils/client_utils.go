@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ava-labs/libevm/ethclient"
-	"github.com/ava-labs/libevm/rpc"
+	"github.com/ryt-io/libevm/ethclient"
+	"github.com/ryt-io/libevm/rpc"
 )
 
 var ErrInvalidEndpoint = errors.New("invalid rpc endpoint")

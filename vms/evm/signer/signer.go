@@ -7,8 +7,8 @@ import (
 	"math/big"
 
 	"github.com/ryt-io/icm-services/relayer/config"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 )
 
 type Signer interface {

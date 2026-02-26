@@ -8,7 +8,7 @@ import (
 	exampleerc20 "github.com/ryt-io/icm-services/abi-bindings/go/mocks/ExampleERC20"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
 	. "github.com/onsi/gomega"
 )
 

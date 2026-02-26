@@ -12,11 +12,11 @@ package mocks
 import (
 	reflect "reflect"
 
-	logging "github.com/ava-labs/avalanchego/utils/logging"
-	warp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	logging "github.com/ryt-io/ryt-v2/utils/logging"
+	warp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	messages "github.com/ryt-io/icm-services/messages"
 	vms "github.com/ryt-io/icm-services/vms"
-	common "github.com/ava-labs/libevm/common"
+	common "github.com/ryt-io/libevm/common"
 	gomock "go.uber.org/mock/gomock"
 )
 

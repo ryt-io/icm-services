@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/alexliesenfeld/health"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

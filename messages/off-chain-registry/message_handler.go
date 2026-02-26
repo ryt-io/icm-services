@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	warpPayload "github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/ryt-v2/vms/platformvm/warp"
+	warpPayload "github.com/ryt-io/ryt-v2/vms/platformvm/warp/payload"
 	teleporterregistry "github.com/ryt-io/icm-services/abi-bindings/go/teleporter/registry/TeleporterRegistry"
 	"github.com/ryt-io/icm-services/messages"
 	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ryt-io/icm-services/vms"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
 	"go.uber.org/zap"
 )
 

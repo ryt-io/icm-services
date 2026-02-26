@@ -16,9 +16,9 @@ import (
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/contracts/warp"
 	// Force-load precompiles to trigger registration
 	_ "github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/registry"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/set"
 	basecfg "github.com/ryt-io/icm-services/config"
 	"github.com/ryt-io/icm-services/peers"
 	"go.uber.org/zap"

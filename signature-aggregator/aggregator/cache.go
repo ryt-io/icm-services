@@ -7,8 +7,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/crypto/bls"
 	lru "github.com/hashicorp/golang-lru/v2"
 	"github.com/pingcap/errors"
 )

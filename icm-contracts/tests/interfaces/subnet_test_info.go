@@ -3,8 +3,8 @@ package interfaces
 import (
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/libevm/ethclient"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/libevm/ethclient"
 )
 
 // Tracks information about a test L1 used for executing tests against.

@@ -6,7 +6,7 @@ package database
 import (
 	"strconv"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

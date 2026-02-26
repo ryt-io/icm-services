@@ -5,15 +5,15 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/units"
 	exampleerc20 "github.com/ryt-io/icm-services/abi-bindings/go/mocks/ExampleERC20"
 	erc20tokenstakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/ERC20TokenStakingManager"
 	istakingmanager "github.com/ryt-io/icm-services/abi-bindings/go/validator-manager/interfaces/IStakingManager"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/utils"
 	"github.com/ryt-io/icm-services/log"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
 	. "github.com/onsi/gomega"
 )
 

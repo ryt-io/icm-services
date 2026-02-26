@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	basecfg "github.com/ryt-io/icm-services/config"
 	"github.com/ryt-io/icm-services/relayer/config"
 	mock_ethclient "github.com/ryt-io/icm-services/vms/evm/mocks"
 	"github.com/ryt-io/icm-services/vms/evm/signer"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

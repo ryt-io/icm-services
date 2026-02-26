@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ryt-io/ryt-v2/tests/fixture/e2e"
+	"github.com/ryt-io/ryt-v2/utils/units"
 	teleporterFlows "github.com/ryt-io/icm-services/icm-contracts/tests/flows/teleporter"
 	registryFlows "github.com/ryt-io/icm-services/icm-contracts/tests/flows/teleporter/registry"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/network"

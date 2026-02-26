@@ -7,9 +7,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/set"
 	basecfg "github.com/ryt-io/icm-services/config"
 	"github.com/ryt-io/icm-services/peers"
 )

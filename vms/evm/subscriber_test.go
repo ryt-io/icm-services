@@ -7,12 +7,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	basecfg "github.com/ryt-io/icm-services/config"
 	"github.com/ryt-io/icm-services/relayer/config"
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/core/types"
 	"github.com/stretchr/testify/require"
 )
 

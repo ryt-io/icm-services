@@ -6,9 +6,9 @@ package main
 import (
 	"os"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	teleportermessenger "github.com/ryt-io/icm-services/abi-bindings/go/teleporter/TeleporterMessenger"
-	"github.com/ava-labs/libevm/accounts/abi"
+	"github.com/ryt-io/libevm/accounts/abi"
 	"github.com/spf13/cobra"
 )
 

@@ -10,7 +10,7 @@ import (
 
 	"github.com/ryt-io/icm-services/relayer/config"
 	"github.com/ryt-io/icm-services/utils"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"github.com/stretchr/testify/require"
 )
 

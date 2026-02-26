@@ -12,14 +12,14 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/set"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/set"
+	avalancheWarp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	"github.com/ryt-io/icm-services/utils"
 	"github.com/ryt-io/icm-services/vms/evm/signer"
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/core/types"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/core/types"
 	"go.uber.org/zap"
 )
 

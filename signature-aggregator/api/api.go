@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	pchainapi "github.com/ava-labs/avalanchego/vms/platformvm/api"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
+	pchainapi "github.com/ryt-io/ryt-v2/vms/platformvm/api"
 	"github.com/ryt-io/icm-services/signature-aggregator/aggregator"
 	"github.com/ryt-io/icm-services/signature-aggregator/metrics"
 	"github.com/ryt-io/icm-services/types"

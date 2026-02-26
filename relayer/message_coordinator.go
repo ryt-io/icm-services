@@ -10,15 +10,15 @@ import (
 	"math/big"
 
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/contracts/warp"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/ids"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/ryt-io/icm-services/database"
 	"github.com/ryt-io/icm-services/messages"
 	relayerTypes "github.com/ryt-io/icm-services/types"
 	"github.com/ryt-io/icm-services/utils"
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethclient"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethclient"
 	"go.uber.org/zap"
 )
 

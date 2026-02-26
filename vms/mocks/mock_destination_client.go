@@ -13,12 +13,12 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	set "github.com/ava-labs/avalanchego/utils/set"
-	warp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	ids "github.com/ryt-io/ryt-v2/ids"
+	set "github.com/ryt-io/ryt-v2/utils/set"
+	warp "github.com/ryt-io/ryt-v2/vms/platformvm/warp"
 	evm "github.com/ryt-io/icm-services/vms/evm"
-	common "github.com/ava-labs/libevm/common"
-	types "github.com/ava-labs/libevm/core/types"
+	common "github.com/ryt-io/libevm/common"
+	types "github.com/ryt-io/libevm/core/types"
 	gomock "go.uber.org/mock/gomock"
 )
 

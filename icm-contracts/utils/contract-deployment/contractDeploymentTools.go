@@ -10,8 +10,8 @@ import (
 
 	deploymentUtils "github.com/ryt-io/icm-services/icm-contracts/utils/deployment-utils"
 	"github.com/ryt-io/icm-services/log"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 	"go.uber.org/zap"
 )
 

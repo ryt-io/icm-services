@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	"github.com/ryt-io/icm-services/relayer"
 	"github.com/ryt-io/icm-services/types"
 	"github.com/ryt-io/icm-services/utils"
-	"github.com/ava-labs/libevm/common"
+	"github.com/ryt-io/libevm/common"
 	"go.uber.org/zap"
 )
 

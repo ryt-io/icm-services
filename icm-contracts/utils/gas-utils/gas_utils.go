@@ -9,7 +9,7 @@ import (
 
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/contracts/warp"
 	"github.com/ava-labs/avalanchego/graft/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/avalanchego/utils/math"
+	"github.com/ryt-io/ryt-v2/utils/math"
 )
 
 const (

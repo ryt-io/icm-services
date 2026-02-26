@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/tests/fixture/e2e"
+	"github.com/ryt-io/ryt-v2/tests/fixture/e2e"
 	governanceFlows "github.com/ryt-io/icm-services/icm-contracts/tests/flows/governance"
 	localnetwork "github.com/ryt-io/icm-services/icm-contracts/tests/network"
 	"github.com/ryt-io/icm-services/log"

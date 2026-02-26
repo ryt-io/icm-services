@@ -10,9 +10,9 @@ import (
 
 	"github.com/ryt-io/icm-services/utils"
 	ethereum "github.com/ava-labs/libevm"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/ethclient"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/ethclient"
 )
 
 // EthClient extends the bind.ContractBackend interface to provide

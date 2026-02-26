@@ -7,9 +7,9 @@ import (
 	proxyadmin "github.com/ryt-io/icm-services/abi-bindings/go/ProxyAdmin"
 	transparentupgradeableproxy "github.com/ryt-io/icm-services/abi-bindings/go/TransparentUpgradeableProxy"
 	"github.com/ryt-io/icm-services/icm-contracts/tests/interfaces"
-	"github.com/ava-labs/libevm/accounts/abi/bind"
-	"github.com/ava-labs/libevm/common"
-	"github.com/ava-labs/libevm/crypto"
+	"github.com/ryt-io/libevm/accounts/abi/bind"
+	"github.com/ryt-io/libevm/common"
+	"github.com/ryt-io/libevm/crypto"
 	. "github.com/onsi/gomega"
 )
 

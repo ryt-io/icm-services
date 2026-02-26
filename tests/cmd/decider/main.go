@@ -9,7 +9,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ryt-io/ryt-v2/utils/logging"
 	pb "github.com/ryt-io/icm-services/proto/pb/decider"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
